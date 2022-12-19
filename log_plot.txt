@@ -1,0 +1,18 @@
+Statictics at 2022-12-19 20:46:57)
+真实值 vs CountMin-Sketch labeled by Misra-Greis
+Key cover rate: 97.000000%
+Error rate (original): 31.202826%
+Error rate (equalized): 66.986392%
+----------
+Statictics at 2022-12-19 20:48:44)
+真实值 vs Misra-Greis
+Key cover rate: 100.000000%
+Error rate (original): 19.184281%
+Error rate (equalized): 40.645158%
+----------
+Statictics at 2022-12-19 20:48:55)
+真实值 vs CountMin-Sketch
+Key cover rate: 31.000000%
+Error rate (original): 37.505793%
+Error rate (equalized): 70.700062%
+----------
