@@ -13,6 +13,8 @@ def correct_capitalization(file:str):
             
     frequency = sorted(frequency.items(),key=lambda x:x[1],reverse=True)
             
-    with open(file.split('.')+'_new.txt','a',encoding='utf-8') as file:
+    with open(file.split('.')[0]+'_new.txt','a',encoding='utf-8') as file:
         for k,v in frequency:
             file.write(k+':'+str(v)+'\n')  #将结果写入文件
+            
+correct_capitalization('./log_mr_v1.txt')

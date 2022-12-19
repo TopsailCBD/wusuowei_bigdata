@@ -28,6 +28,7 @@ def Map_v1(sentences,k,lis):  #Map函数进行分词并存储到列表
         for wd in words:
             if is_punctuation(wd):
                 continue
+            wd = wd.lower()
             
             if len(dic.keys())<k-1 or wd in dic.keys():
                 dic[wd] = dic.get(wd,0)+1
